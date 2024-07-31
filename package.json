@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
   },
   "keywords": [
     "time",
@@ -11,5 +12,9 @@
   ],
   "author": "",
   "license": "MIT",
-  "description": "Utility function for date."
+  "description": "Utility function for date.",
+  "devDependencies": {
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  }
 }
