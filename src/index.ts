@@ -1,1 +1,3 @@
-console.log("Hello!");
+export * from "./modifyFuntions";
+export * from "./getFunctions";
+export * from "./utils";
