@@ -5,9 +5,9 @@ export default defineConfig({
   format: ["cjs", "esm"],
   // The entry point of the application
   entry: ["./src/index.ts"],
-  // Generate TypeScript declaration files
   // Output directory
   outDir: "dist",
+  // Generate TypeScript declaration files
   dts: true,
   // Include shims for Node.js built-ins like `Buffer`
   shims: true,
