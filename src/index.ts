@@ -1,3 +1,3 @@
-export * from "./modifyFuntions";
+export * from "./modifyFunctions";
 export * from "./getFunctions";
 export * from "./utils";
